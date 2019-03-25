@@ -1,8 +1,5 @@
 <?php
-error_reporting(E_NOTICE);
-
 $db = mysqli_connect('localhost','root','','guestbook');
-
 if (isset($_POST['user'])) {
 	$user= $_POST['user'];
 }; if ($user == '' ) {
